@@ -1,0 +1,41 @@
+/* À vous de jouer */
+
+/** 
+ * Header
+ * ---------------------------------------------------------------- */
+header {
+  /* ajoutez une hauteur minimum de 200px */
+
+  /* ajoutez un padding de 1rem 0 */
+
+  /* ajoutez un margin de 0 */
+}
+
+/** 
+ * Main & aside
+ * ---------------------------------------------------------------- */
+.sidebar-content {
+  /* Créez un context permettant de créer des colonnes */
+
+  /* ajoutez un espace de 1rem entre les colonnes */
+
+  /* ajoutez une margin interne de 1rem à l'interieur */
+
+  /* ajoutez une marge tout autour de 1rem */
+
+  /* ajoutez une bordure de 3px dashed pink */
+
+  /* OPTIONNEL: ajoutez une hauteur minimum de 100vh - 100px */
+}
+
+main {
+  /* faite en sorte que <main> fasse 2/3 de la largeur */
+
+  /* ajoutez une hauteur minimum de 50vh */
+}
+
+aside {
+  /* faite en sorte que <aside> fasse 1/3 de la largeur */
+
+  /* faite en sorte que aside soit placé à gauche */
+}
