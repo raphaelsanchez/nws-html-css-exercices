@@ -23,3 +23,22 @@ body {
   color: white;
   text-align: center;
 }
+
+.static {
+}
+
+.relative {
+  background-color: darkred;
+}
+
+.absolute {
+  background-color: darkgreen;
+}
+
+.fixed {
+  background-color: darkorange;
+}
+
+.sticky {
+  background-color: darkviolet;
+}
