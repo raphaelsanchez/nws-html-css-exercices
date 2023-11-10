@@ -1,0 +1,25 @@
+/* Reset des marges pour la page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+}
+
+.container {
+  position: relative;
+  border: 3px dashed purple;
+  width: min(80%, 800px);
+  margin: 100px auto;
+  min-height: 200vh;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
