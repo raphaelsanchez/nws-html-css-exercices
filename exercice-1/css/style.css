@@ -33,7 +33,7 @@ header {
 
 main {
   /* faite en sorte que <main> fasse 2/3 de la largeur */
-  width: 66.66%;
+  flex: 1;
   /* ajoutez une hauteur minimum de 50vh */
   min-height: 50vh;
 }
