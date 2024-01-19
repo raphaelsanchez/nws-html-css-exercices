@@ -1,29 +1,37 @@
 .static {
   /* Par défaut, les éléments sont positionnés de manière statique */
+  position: static;
 }
 
 .relative {
   /* mettez l'element en relatif */
-
+  position: relative;
   /* deplacer le de 50px depuis le haut et de 50px depuis la gauche */
+  top: 50px;
 }
 
 .absolute {
   /* mettez l'element en absolu */
-
+  position: absolute;
   /* deplacer le de -50px depuis le haut et de -50px depuis la droite */
+  top: -50px;
+  right: -50px;
 }
 
 .fixed {
   /* mettez l'element en fixe */
-
+  position: fixed;
   /* deplacer le de 20px depuis le bas et de 20px depuis la droite */
+  bottom: 20px;
+  right: 10px;
 }
 
 .sticky {
   /* mettez l'element en sticky */
-
+  position: sticky;
   /* deplacer le de 20px depuis le haut et de 50% depuis la gauche */
-
+  top: 20px;
+  left: 50%;
   /* ATTENTION, pour que l'élément soit centré il va falloir faire une translation */
+  translate: -50% 0;
 }
